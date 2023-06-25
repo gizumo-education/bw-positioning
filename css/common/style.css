@@ -1,11 +1,4 @@
 @charset "UTF-8";
-@import "../work/q1/style.css";
-@import "../work/q2/style.css";
-@import "../work/q3/style.css";
-@import "../work/q4/style.css";
-@import "../work/q5/style.css";
-
-/* ヘッダー */
 
 .layout_head_logo,
 .layout_head_menu p {
@@ -199,13 +192,14 @@
   color: #fff;
 }
 
-#sample_scroll_button {
+.sample_scroll_button {
   width: 50px;
   height: 50px;
   background-color: #eee;
+  position: relative;
 }
 
-#sample_scroll_button::after {
+.sample_scroll_button::after {
   content: "";
   position: absolute;
   top: 50%;
